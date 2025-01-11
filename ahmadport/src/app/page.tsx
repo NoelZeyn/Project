@@ -5,7 +5,7 @@ import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
 import Contacts from '@/components/Contacts';
 
-const Home = () => {
+export default function Home(){
   return (
     <div>
       <Header />
@@ -19,4 +19,3 @@ const Home = () => {
   );
 };
 
-export default Home;
